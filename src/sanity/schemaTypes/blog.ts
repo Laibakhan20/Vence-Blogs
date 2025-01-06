@@ -32,7 +32,8 @@ export const blog = {
         title: 'Images',
         type: 'array',
         of: [{ type: 'image' }],
-        options: { layout: 'grid' },
+        options: { hotspot: true },
+        
       },
       {
         name: 'publishedAt',
